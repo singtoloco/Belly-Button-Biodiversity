@@ -52,8 +52,8 @@ function buildMetadata(sample) {
       x: [0], y:[0],
         marker: {size: 28, color:'850000'},
         showlegend: false,
-        name: 'WFREQ', //what is this for?
-        text: level,
+        name: 'WFREQ',
+        text: data.WFREQ,
         hoverinfo: 'text+name'},
       { values: [50/9, 50/9, 50/9, 50/9, 50/9, 50/9, 50/9, 50/9, 50/9, 50],
       rotation: 90,
